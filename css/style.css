@@ -517,7 +517,7 @@ height: 50rem;
     .footer__content
     {
         display: block;
-        height: 17rem;
+        height: 10rem;
         font-size: 1.5rem;
         color: var(--light-color);
         background-image: url(../images/patternbg.jpg);
@@ -525,7 +525,7 @@ height: 50rem;
         object-fit: cover;
         text-transform: uppercase;
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 5rem;
     }
 }
 /* ./mobile */
