@@ -529,3 +529,119 @@ height: 50rem;
     }
 }
 /* ./mobile */
+/* ipad */
+@media (min-width: 668px) and (max-width:1024px)
+{
+    .container
+    {
+        width: 102.4rem;
+        overflow-x: hidden;
+    }
+    .header
+    {
+        padding-top: 5rem;
+        width: 100%;
+        background-image: linear-gradient(0,rgba(0,0,0,.6),rgba(255, 255, 255, 0.6)),url(../images/84-1367x670.jpg);
+        background-size: auto;
+        object-fit: cover;
+    }
+    .header__logo
+    {
+        margin-left: 3rem;
+        margin-top: -1rem;
+    }
+
+    .headerIcon__item
+    {
+        margin-top: -1rem;
+    }
+    .banner__desc
+    {
+        width: 102.4rem;
+    }
+     .timeWork__list
+    {
+        display: flex;
+        width: 102.4rem;
+        padding-left: 5rem;
+    } 
+    .timeWork__item
+    {
+        margin-right: 1.5rem;
+    }
+    .timeWork__desc
+    {
+        width: 20rem;
+    }
+    .about__images
+    {
+        width: 37.5rem;
+        padding-left: 0;
+    }
+    .images__list
+    {
+        width: 102.4rem;
+        padding-left: 3rem;
+        margin: 0 auto;
+    }
+    .images__item
+    {
+        width: 33.33%;
+        height: auto;
+        position: relative;
+    }
+    .images__item > .images__item-img
+    {
+        max-width: 100%;
+    }
+    .images__item-content
+    {
+        height: 100%;
+        /* width: 95%; */
+    }
+    .images__item > div
+    {
+        width: 100%;
+    }
+    /* div .images__item-img
+    {
+        width: 3rem;
+    } */
+    .images_item-title,.images_item-desc
+    {
+        width:100%;
+    }
+    .clients
+    {
+        width: 102.4rem;
+        margin: 0 auto;
+        height: 20rem;
+    }
+    .clients__item
+    {
+        width:100%;
+        margin: 7rem 6rem;
+    }
+    .news_list
+    {
+        height: auto;
+        margin-left: .2rem;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .news__item
+    {
+        
+        margin: 0 6.5rem
+    }
+    .news__content
+    {
+        height: 130vh;
+    }
+    .news__desc
+    {
+        margin-bottom: 6rem ;
+    }
+}
