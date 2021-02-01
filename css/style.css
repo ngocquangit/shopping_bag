@@ -1,0 +1,531 @@
+body
+{
+    /* font-family: 'Playfair Display','Averta PE'; */
+    font-family: 'Playfair','Averta';
+    overflow-x: hidden;
+}
+:root
+{
+    --back-color: #636363;    
+    --light-color: #ffffff;
+    --black-color: #f6f6f6;
+    --primary-color:#171717;
+}
+.container
+{
+    width: 137rem;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 67rem;
+    width: 100%;
+    background-image: linear-gradient(0,rgba(0,0,0,.6),rgba(255, 255, 255, 0.6)),url(../images/84-1367x670.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    /* background-color: var(--back-color) ; */
+    padding-top: 4.2rem;
+    position: relative;
+}
+.header__logo
+{
+    margin-left: 9.9rem;
+    cursor: pointer;
+}
+.headerMenu__list
+{
+    display: flex;
+}
+.headerMenu__item
+{
+    font-size: 1.4rem;
+    color: var(--light-color) ;
+    line-height: 1;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    margin: 0 2.5rem;
+    cursor: pointer;
+}
+.headerIcon__list
+{
+    display: flex;
+    padding-right: 5.9rem;
+}
+.headerIcon__item
+{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(141deg) brightness(104%) contrast(102%);
+    height: 2.4rem;
+    width: 2.4rem;
+    margin: 0 .9rem;
+    cursor: pointer;
+}
+.banner__content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--light-color);
+    line-height: 2.8;
+    text-align: center; 
+}
+.banner__title
+{
+    font-size: 1.4rem;
+    font-family: 'Averta';
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+.banner__desc
+{
+    font-size: 4.8rem;
+    font-family: 'Playfair';
+    line-height: 1.4;
+    letter-spacing: .3rem;
+}
+.banner__desc-content
+{
+    font-style: italic;
+}
+.banner__arrow
+{
+    width: 5rem;
+    height: 5rem;
+    border: solid 2px var(--light-color);
+    margin: 0 auto;
+    border-radius: 2.5rem;
+    margin-top: 24.6rem;
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 0%;
+    line-height: 2.4;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.banner__arrow-content
+{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+/* about */
+.about
+{
+    height: 100%;
+    width: 100%;
+    background-color: var(--black-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.about__content
+{
+    text-align: center;
+    margin-top: 8.6rem;
+}
+.about__header
+{
+    font-size: 3.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+.about__desc
+{
+    padding-top: 3.6rem;
+    width: 70rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    padding-bottom: 4rem;
+    font-family: 'Averta';
+    background-color: var(--black-color);
+}
+.about__sign
+{
+    margin-bottom: 10rem;
+}
+.about__images
+{
+    width: 117rem;
+    padding-left: 10rem;
+}
+.images__list
+{
+    display: flex; 
+    width: 117rem;
+}
+
+.images__item
+{
+    margin: 0 3rem 3rem 0;
+    width: 40rem;
+    /* height: 25rem; */
+    position: relative;
+}
+.images__list:first-child
+{
+    margin-top: 6rem;
+}
+.images__list:last-child
+{
+    margin-bottom: 10rem;
+}
+.images_item-text
+{
+
+    position: relative;
+}
+.images_item-title
+{
+    font-size: 2.4rem;
+    font-family: 'Playfair';
+}
+.images__item-content
+{
+    width: 100%;
+    height: 25rem;
+    background-color: var(--light-color);
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.images__item-img
+{
+    width: 37rem;
+    height: 25rem;
+}
+.images_item-desc
+{
+    font-family: 'Averta';
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    
+}
+/* ./about */
+/* timework */
+.timeWork
+{
+    background-image: url(../images/patternbg.jpg);
+    height: 25.8rem;
+}
+.timeWork__list
+{
+    display: flex;
+    width: 117rem;
+    padding-left: 10rem;
+}
+.timeWork__item
+{
+    margin-top: 12rem;
+    font-family: 'Averta';
+    display: flex;
+    color: var(--light-color);
+    width: 25%;
+    padding-right: 2.5rem;
+    
+}
+.timeWork__content
+{
+    margin-left: 2.7rem;
+}
+.timeWork__icon
+{
+    width: 4rem;
+    height: 4rem;
+}
+.timeWork__hour
+{
+    font-size: 1.8rem;
+    padding-bottom: 1.4rem;
+}
+.timeWork__desc
+{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* ./timework */
+/* quote */
+.quote
+{
+height: 50rem;
+}
+.quote__content
+{
+    background-image: url(../images/patternbg.jpg);
+    object-fit: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.quote__desc
+{
+    font-size: 2.4rem;
+    font-family: 'Playfair';
+    font-style: italic;
+    width: 71rem;
+    margin: 0 auto;
+    color: var(--light-color);
+}
+.quote__desc::before, .quote__desc::after
+{
+    content: '"';
+    margin: 0 .6rem;
+}
+
+.quote__author
+{
+    font-size: 1.4rem;
+    font-family: 'Averta';
+    color: var(--light-color);
+    margin-top: 3.9rem;
+}
+/* ./quote */
+/* clients */
+.clients
+{
+    width: 117rem;
+    display:flex;
+    justify-content: center;
+    height: 20rem;
+}
+.clients__item
+{
+    width: 20%;
+    margin-top: 6.5rem;
+    margin-left: 13.5rem;
+}
+/* ./clients */
+/* news */
+.news__content
+{
+    width: 117rem;
+    font-family: 'Playfair';
+}
+.news_list
+{
+    display: flex;
+    margin-left: 10rem;
+}
+.news__logo
+{
+    width: 37rem;
+}
+.news__head
+{
+    position: relative;
+}
+.news_head-brand
+{
+    background-color: #252525;
+    width: 9rem;
+    height: 3rem;
+    color: var(--light-color);
+    text-align: center;
+    padding-top: 1rem ;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: .8rem;
+    left: 1rem;
+
+}
+.news__item
+{
+    width: 33.33%;
+    margin-right:4.3rem;
+}
+.news__desc
+{
+    padding-top: 2.6rem;
+    padding-left: 3rem;
+    width: 37rem;
+    margin-bottom: 11.5rem;
+    background-color: var(--light-color);
+}
+.news__title
+{
+    font-size: 2rem;
+    font-family: 'Playfair';
+    font-weight: bold;
+    margin-bottom: 1.9rem;
+}
+.news__time
+{
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+.news__precontent
+{
+    width: 85%;
+    font-size: 1.5rem;
+    padding-bottom: 2.2rem;
+    /* margin-bottom: 2.2rem; */
+}
+
+/* ./news */
+.footer__content
+{
+    display: none;
+}
+/* mobile */
+
+@media (min-width: 375px) and (max-width:667px)
+{
+    .container
+    {
+        width: 37.5rem;
+        overflow-x: hidden;
+    }
+    .header
+    {
+        padding-top: 2rem;
+        background-size: 37.5rem auto;
+        background-image: linear-gradient(0,rgba(0,0,0,.6),rgba(255, 255, 255, 0.6)),url(../images/26-376x667.jpg);
+        background-attachment: initial;
+    }
+    .menu__hiden
+    {
+        display: none;
+    }
+    .header__logo
+    {
+        margin: 1rem;
+    }
+
+    .headerIcon__item
+    {
+        padding-top: 1.5rem;
+        margin-right: -1.5rem ;
+    }
+    .banner__title
+    {
+        font-size: .7rem;
+    }
+    .banner__desc
+    {
+        font-size: 2.5rem;
+        width: 37.5rem;
+    }
+    .about__header
+    {
+        font-size: 3rem;
+    }
+    .about__desc
+    {
+        padding-top: 3.6rem;
+        width: 37.5rem;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+    .timeWork
+    {
+        background-image: url(../images/patternbg.jpg);
+        height: 66.7rem;
+        object-fit: cover;
+        
+    }
+    .timeWork__list
+    {
+        display: flex;
+        flex-direction: column;
+        width: 37.5rem;
+        padding-left: 7rem;
+    }
+    .timeWork__item
+    {
+        margin-top: 12rem;
+        font-family: 'Averta';
+        display: flex;
+        color: var(--light-color);
+        width: 100%;
+        padding-right: 2.5rem;
+        margin-top: 10rem;
+    }
+    .about__images
+    {
+        width: 37.5rem;
+        padding-left: 0;
+    }
+    .images__list
+    {
+        flex-direction: column;
+        width: 37rem;
+        margin: 0 auto;
+    }
+    .images__item
+    {
+        width: 95%;
+        position: relative;
+    }
+    .quote__desc
+    {
+        font-size: 1.8rem;
+        font-family: 'Playfair';
+        font-style: italic;
+        width: 37.5rem;
+        margin: 0 auto;
+        color: var(--light-color);
+    }
+    .quote__desc::before, .quote__desc::after
+    {
+        content: '"';
+        margin: 0 .2rem;
+    }
+    .clients
+    {
+        width: 37.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .clients__item
+    {
+        width:45%;
+        margin: 1rem 2rem;
+    }
+    .news_list
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: .2rem;
+        margin-bottom: 0;
+    }
+    .news__desc
+    {
+        padding-top: 2.6rem;
+        padding-left: 3rem;
+        width: 37.5rem;
+        margin-bottom: 1rem;
+        background-color: var(--light-color);
+    }
+    .footer__content
+    {
+        display: block;
+        height: 17rem;
+        font-size: 1.5rem;
+        color: var(--light-color);
+        background-image: url(../images/patternbg.jpg);
+        background-size: cover;
+        object-fit: cover;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 2rem;
+    }
+}
+/* ./mobile */
