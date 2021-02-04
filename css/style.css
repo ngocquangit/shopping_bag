@@ -382,7 +382,7 @@ height: 50rem;
 }
 /* mobile */
 
-@media (min-width: 375px) and (max-width:667px)
+@media (min-width: 360px) and (max-width:410px)
 {
     .container
     {
@@ -528,6 +528,300 @@ height: 50rem;
         padding-top: 5rem;
     }
 }
+/*  */
+@media (min-width: 411px) and (max-width:736px)
+{
+    .container
+    {
+        width: 42.5rem;
+        overflow-x: hidden;
+    }
+    .header
+    {
+        padding-top: 2rem;
+        background-size: 42.5rem auto;
+        background-image: linear-gradient(0,rgba(0,0,0,.6),rgba(255, 255, 255, 0.6)),url(../images/26-376x667.jpg);
+        background-attachment: initial;
+    }
+    .menu__hiden
+    {
+        display: none;
+    }
+    .header__logo
+    {
+        margin: 1rem;
+    }
+
+    .headerIcon__item
+    {
+        padding-top: 1.5rem;
+        margin-right: -1.5rem ;
+    }
+    .banner__title
+    {
+        font-size: .7rem;
+    }
+    .banner__desc
+    {
+        font-size: 2.5rem;
+        width: 42.5rem;
+    }
+    .about__header
+    {
+        font-size: 3rem;
+    }
+    .about__desc
+    {
+        padding-top: 3.6rem;
+        width: 42.5rem;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+    .timeWork
+    {
+        background-image: url(../images/patternbg.jpg);
+        height: 66.7rem;
+        object-fit: cover;
+        
+    }
+    .timeWork__list
+    {
+        display: flex;
+        flex-direction: column;
+        width: 42.5rem;
+        padding-left: 7rem;
+    }
+    .timeWork__item
+    {
+        margin-top: 12rem;
+        font-family: 'Averta';
+        display: flex;
+        color: var(--light-color);
+        width: 100%;
+        padding-right: 2.5rem;
+        margin-top: 10rem;
+    }
+    .about__images
+    {
+        width: 42.5rem;
+        padding-left: 0;
+    }
+    .images__list
+    {
+        flex-direction: column;
+        width: 37rem;
+        margin: 0 auto;
+    }
+    .images__item
+    {
+        width: 95%;
+        position: relative;
+    }
+    .quote__desc
+    {
+        font-size: 1.8rem;
+        font-family: 'Playfair';
+        font-style: italic;
+        width: 42.5rem;
+        margin: 0 auto;
+        color: var(--light-color);
+    }
+    .quote__desc::before, .quote__desc::after
+    {
+        content: '"';
+        margin: 0 .2rem;
+    }
+    .clients
+    {
+        width: 42.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .clients__item
+    {
+        width:45%;
+        margin: 1rem 2rem;
+    }
+    .news_list
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: .2rem;
+        margin-bottom: 0;
+    }
+    .news__desc
+    {
+        padding-top: 2.6rem;
+        padding-left: 3rem;
+        width: 42.5rem;
+        margin-bottom: 1rem;
+        background-color: var(--light-color);
+    }
+    .footer__content
+    {
+        display: block;
+        height: 10rem;
+        font-size: 1.5rem;
+        color: var(--light-color);
+        background-image: url(../images/patternbg.jpg);
+        background-size: cover;
+        object-fit: cover;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 5rem;
+    }
+}
+@media (min-width: 320px) and (max-width:359px)
+{
+    .container
+    {
+        width: 32rem;
+        overflow-x: hidden;
+    }
+    .header
+    {
+        padding-top: 2rem;
+        background-size: 32rem auto;
+        background-image: linear-gradient(0,rgba(0,0,0,.6),rgba(255, 255, 255, 0.6)),url(../images/26-376x667.jpg);
+        background-attachment: initial;
+    }
+    .menu__hiden
+    {
+        display: none;
+    }
+    .header__logo
+    {
+        margin: 1rem;
+    }
+
+    .headerIcon__item
+    {
+        padding-top: 1.5rem;
+        margin-right: -1.5rem ;
+    }
+    .banner__title
+    {
+        font-size: .7rem;
+    }
+    .banner__desc
+    {
+        font-size: 2rem;
+        width: 32rem;
+    }
+    .about__header
+    {
+        font-size: 3rem;
+    }
+    .about__desc
+    {
+        padding-top: 3.6rem;
+        width: 32rem;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .timeWork
+    {
+        background-image: url(../images/patternbg.jpg);
+        height: 66.7rem;
+        object-fit: cover;
+        
+    }
+    .timeWork__list
+    {
+        display: flex;
+        flex-direction: column;
+        width: 32rem;
+        padding-left: 7rem;
+    }
+    .timeWork__item
+    {
+        margin-top: 12rem;
+        font-family: 'Averta';
+        display: flex;
+        color: var(--light-color);
+        width: 100%;
+        padding-right: 2.5rem;
+        margin-top: 10rem;
+    }
+    .about__images
+    {
+        width: 32rem;
+        padding-left: 0;
+    }
+    .images__list
+    {
+        flex-direction: column;
+        width: 32rem;
+        margin: 0 auto;
+    }
+    .images__item
+    {
+        width: 95%;
+        position: relative;
+    }
+    .quote__desc
+    {
+        font-size: 1.5rem;
+        font-family: 'Playfair';
+        font-style: italic;
+        width: 32rem;
+        margin: 0 auto;
+        color: var(--light-color);
+    }
+    .quote__desc::before, .quote__desc::after
+    {
+        content: '"';
+        margin: 0 .2rem;
+    }
+    .clients
+    {
+        width: 32rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .clients__item
+    {
+        width:45%;
+        margin: 1rem 2rem;
+    }
+    .news_list
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: .2rem;
+        margin-bottom: 0;
+    }
+    .news__desc
+    {
+        padding-top: 2.6rem;
+        padding-left: 3rem;
+        width: 32rem;
+        margin-bottom: 1rem;
+        background-color: var(--light-color);
+    }
+    .footer__content
+    {
+        display: block;
+        height: 10rem;
+        font-size: 1.5rem;
+        color: var(--light-color);
+        background-image: url(../images/patternbg.jpg);
+        background-size: cover;
+        object-fit: cover;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 5rem;
+    }
+}
+/* ./ */
 /* ./mobile */
 /* ipad */
 @media (min-width: 668px) and (max-width:1024px)
